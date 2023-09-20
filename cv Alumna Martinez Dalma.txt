@@ -6,7 +6,35 @@
 	<title>CV_Dalma</title>
 	<meta name="description" content="curriculum vitae de Dalma Martinez"/>
 	<meta name="keywords" content="desarrollo, paginas web, diseño, programacion"/>
-	<link rel="stylesheet" href="style.css">
+	<style>
+	body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:aliceblue;   
+    margin: 20px;
+    }
+
+	h1{
+   	 font-size: 2rem;
+	}
+
+	h2{
+    text-decoration: underline;
+
+	}
+
+
+	section#titulo-cv{
+    text-decoration-line:underline;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;    
+	}
+
+	nav ul li{
+    	font-size: 1rem;
+	}
+	</style>
 	
 
 </head>
@@ -92,11 +120,6 @@
 				<a href="https://www.google.com.ar/"> Ir a Formulario de Google</a>
 				<!-- <br> salta un espacio -->
 				<br>
-				<br>
-				Ir a mis proyectos: 
-				<br>
-				<br>
-				<a href="index.html"> Proyectos </a>
 				
 			</p>
 			<p> <b>Dalma Vernica Martinez - Derechos reservados 2023</b> </p>
@@ -104,42 +127,5 @@
 		</footer>
 
 
-
 </body>
 </html>
-
-
-
-style:
-
-
-
-body{
-    font-family:'Times New Roman', Times, serif;
-    background-color:aliceblue;   
-    margin: 20px;
-    
-}
-
-h1{
-    font-size: 2rem;
-}
-
-h2{
-    text-decoration: underline;
-
-}
-
-
-section#titulo-cv{
-    text-decoration-line:underline;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;    
-
-}
-
-nav ul li{
-    font-size: 1rem;
-}
